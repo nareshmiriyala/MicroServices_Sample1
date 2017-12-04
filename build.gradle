@@ -36,6 +36,7 @@ dependencies {
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('org.springframework.boot:spring-boot-starter-actuator')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testRuntime "com.h2database:h2:1.4.196"
 }
 
 dependencyManagement {
