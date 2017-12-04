@@ -1,0 +1,9 @@
+licensingservice:
+    image: licensing-service
+    ports:
+      - "8080:8080"
+    environment:
+      PROFILE:"dev"
+      CONFIGURATION_URL: http://localhost:8888
+      CONFIGURATION_PORT: "8888"
+      DATABASESERVER_PORT: "1433"
